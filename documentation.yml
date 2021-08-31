@@ -9,7 +9,7 @@
 
 ## Documentation directories ##
 
-- ^[Dd]ocs?/
+- ^[Dd]ocs?/** linguist-documentation=false
 - (^|/)[Dd]ocumentation/
 - (^|/)[Jj]avadoc/
 - ^[Mm]an/
