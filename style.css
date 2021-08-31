@@ -1,0 +1,104 @@
+/*CUSTOM CSS style sheet*/
+
+/* Custom site BG */
+html
+{
+  background:url(https://i.pinimg.com/originals/49/8a/eb/498aebfeaa8a81c80304edb9237026c2.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+}
+
+/* Styles for Header1 & Header 2 and paragraph (default)*/
+h1, h2, p
+{
+  text-align:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+h1
+{
+  text-shadow: 2px 2px 5px dimgray;
+}
+
+/* Explicit for h2 */
+h2 
+{
+  text-shadow: 2px 2px 3px gray;
+}
+
+/*Custom style for p */
+p 
+{
+  font-size: 115%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*Custom hyperlink color*/
+a:link
+{
+  color: black;
+}
+
+/* Default config for buttons */
+.button 
+{
+  border: 32px;
+  padding: 15px 32px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  transition-duration: 0.5s;
+  cursor: pointer;
+
+}
+
+/* Edit default config for buttons 1 & 2 */
+.button1, .button2
+{
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Explicit custom preferences for button type 1 */
+.button1 
+{
+  background-color: black;
+}
+
+.button1:hover 
+{
+background-color: white;
+color: black;
+}
+
+/* Explicit custom preferences for button type 2 */
+.button2
+{
+  background-color: #363636;
+}
+
+.button2:hover 
+{
+background-color: #2f4f4f;
+color: white;
+}
+
+/* Create a wrapper class */
+.wrapper
+{
+  /*TODO*/
+  text-align: center;
+}
+
+/* Custom iframe to display YouTube Videos */
+iframe 
+{
+  border: 5px solid black;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  align-content: center;
+}
